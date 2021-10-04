@@ -1,0 +1,28 @@
+{
+  "name": "managment",
+  "version": "1.0.0",
+  "description": "APIs used for send requests from users and another functionalites for three stackholders include : 1- users 2- operators 3- adjutant 4-manager.",
+  "main": "server.js",
+  "scripts": {
+    "watch":"nodemon ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "management_system",
+    "API",
+    "node",
+    "js",
+    "my",
+    "sql"
+  ],
+  "author": "ali.alhwayzee",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
